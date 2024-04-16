@@ -1,0 +1,18 @@
+.answer_card {
+  width: 100%;
+  min-height: 700px;
+  // background-color: #fff;
+
+  &_header {
+    line-height: 80px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+.answer_card_root {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}

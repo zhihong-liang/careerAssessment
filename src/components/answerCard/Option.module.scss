@@ -1,0 +1,17 @@
+.Option {
+  display: flex;
+  line-height: 100px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  padding: 0 30px;
+  background-color: #EDF3FF;
+  box-shadow: 3px 3px 7px #bbb;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.active {
+  background-color: #14C3D4;
+}

@@ -25,7 +25,7 @@ const Content = ({ children, title, action, className }: IProps) => {
   return (
     <View className={clas(className, "content")}>
       {header}
-      <View>{children}</View>
+      {children}
     </View>
   );
 };
